@@ -19,6 +19,13 @@ Uses a custom TypeScript transformer when emitting JavaScript from the current f
 [Key source file](./samples/transformer/src/index.ts).
 
 
+### Using a web-ish npm dependency
+
+Uses a dependency which isn't entirely optimised for running in a web page, but doesn't have too big of a dependency tree that it is an issue.
+
+![./samples/webish-npm-dep/screenshot/img.png](./samples/webish-npm-dep/screenshot/img.png)
+
+[Rollup Config](./samples/webish-npm-dep/rollup.config.js), [Key source file](./samples/webish-npm-dep/src/index.ts).
 
 
 ## Contributing

@@ -1,0 +1,12 @@
+{
+  "name": "TypeScript-Playground-Samples",
+  "private": true,
+  "workspaces": [
+    "samples/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/microsoft/TypeScript-Playground-Samples",
+  "author": "Orta Therox <git@orta.io>",
+  "license": "MIT"
+}

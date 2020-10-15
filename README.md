@@ -1,14 +1,15 @@
-# Project
+# Code Samples for Playground Plugins
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This is a series of example plugins, which are extremely well documented and aim to give you samples to build from depending on what you want to build.
 
-As the maintainer of this project, please make a few updates:
+### TS Compiler API
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Uses [`@typescript/vfs`](https://www.npmjs.com/package/@typescript/vfs) to set up a TypeScript project in the browser, and then displays all of the top-level functions as AST nodes in the sidebar.
+
+![./samples/ts-program/screenshots/img.png]()
+
+[Key source file](./samples/ts-program/src/index.ts).
+
 
 ## Contributing
 

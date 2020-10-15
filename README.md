@@ -6,7 +6,7 @@ This is a series of example plugins, which are extremely well documented and aim
 
 Uses [`@typescript/vfs`](https://www.npmjs.com/package/@typescript/vfs) to set up a TypeScript project in the browser, and then displays all of the top-level functions as AST nodes in the sidebar.
 
-![./samples/ts-program/screenshots/img.png](./samples/ts-program/screenshots/img.png)
+![./samples/ts-program/screenshot/img.png](./samples/ts-program/screenshot/img.png)
 
 [Key source file](./samples/ts-program/src/index.ts).
 
@@ -14,7 +14,7 @@ Uses [`@typescript/vfs`](https://www.npmjs.com/package/@typescript/vfs) to set u
 
 Uses a custom TypeScript transformer when emitting JavaScript from the current file in the Playground.
 
-![./samples/transformer/screenshots/img.png](./samples/transformer/screenshots/img.png)
+![./samples/transformer/screenshot/img.png](./samples/transformer/screenshot/img.png)
 
 [Key source file](./samples/transformer/src/index.ts).
 

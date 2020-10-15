@@ -19,14 +19,21 @@ Uses a custom TypeScript transformer when emitting JavaScript from the current f
 [Key source file](./samples/transformer/src/index.ts).
 
 
-### Using a web-ish npm dependency
+### Using a Web-ish npm Dependency
 
-Uses a dependency which isn't entirely optimised for running in a web page, but doesn't have too big of a dependency tree that it is an issue.
+Uses a dependency which isn't entirely optimised for running in a web page, but doesn't have too big of a dependency tree that it this becomes an issue either.
 
 ![./samples/webish-npm-dep/screenshot/img.png](./samples/webish-npm-dep/screenshot/img.png)
 
 [Rollup Config](./samples/webish-npm-dep/rollup.config.js), [Key source file](./samples/webish-npm-dep/src/index.ts).
 
+### Presenting Information Inline 
+
+Using a fraction of the extensive Monaco API (monaco is the text editor at the core of the Playground) to showcase what parts of a TypeScript file would be removed by a transpiler to make it a JS file.
+
+![./samples/monaco-highlights/screenshot/img.png](./samples/monaco-highlights/screenshot/img.png)
+
+[Key source file](./samples/monaco-highlights/src/index.ts).
 
 ## Contributing
 

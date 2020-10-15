@@ -38,7 +38,7 @@ const makePlugin = (utils: PluginUtils) => {
           // fsMap is now a Map which has all of the lib.d.ts files needed for your current compiler settings
           const system = createSystem(fsMap)
           
-          // We can add the file which represents the current file being edited (this could be: index.{ts,tsx,js,tsx})
+          // We can add the file which represents the current file being edited (this could be: input.{ts,tsx,js,tsx})
           // as with the file content as being the current editor's text
           fsMap.set(sandbox.filepath, sandbox.getText())
   
